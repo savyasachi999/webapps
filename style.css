@@ -1,0 +1,143 @@
+.parent{
+  border: 2px solid blue;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+}
+.child1{
+  background-color: #ddd;
+  border:2px solid red;
+  padding: 1%;
+  margin: 1%;
+text-align: center;
+
+}
+img{
+  border-radius: 50%;
+  border= 2px solid red;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right:  auto;
+  box-shadow: 8px 12px 18px black
+}
+.child2{
+  background-color:  #ddd;
+  width: 70%;
+  border: 6px solid red;
+  padding: 1%;
+  margin: 1%;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    border: 2px solid blue;
+  }
+  .parent{
+    display: flex;
+    flex-direction: row;
+
+
+  }
+  .child1{
+    background-color: #B40486;
+    border:2px solid red;
+    padding: 1%;
+    margin: 1%;
+    width: 85%;
+
+
+  }
+  img{
+    border-radius: 50%;
+    border= 2px solid red;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    box-shadow: 8px 12px 18px black
+  }
+  .child2{
+    background-color:  #B40486;
+    width: 85%;
+    border: 6px solid red;
+    padding: 1%;
+    margin: 1%;
+
+  }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    border: 2px solid blue;
+  }
+  .parent{
+    display: flex;
+    flex-direction: row;
+
+
+  }
+  .child1{
+    background-color: #A9F5D0;
+    border:2px solid red;
+    padding: 1%;
+    margin: 1%;
+    width: 85%;
+
+  }
+  img{
+    border-radius: 50%;
+    border= 2px solid red;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    box-shadow: 8px 12px 18px black
+  }
+  .child2{
+    background-color:  #A9F5D0;
+    width: 85%;
+    border: 6px solid red;
+    padding: 1%;
+    margin: 1%;
+
+  }
+
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .parent{
+    border: 2px solid red;
+  }
+  .parent{
+    display: flex;
+    flex-direction: row;
+
+
+  }
+  .child1{
+    background-color: #BFFF00;
+    border:2px solid red;
+    padding: 1%;
+    margin: 1%;
+    width: 85%;
+
+  }
+  img{
+    border-radius: 50%;
+    border= 2px solid red;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    box-shadow: 8px 12px 18px black
+  }
+  .child2{
+    background-color:  #BFFF00;
+    width: 85%;
+    border: 6px solid red;
+    padding: 1%;
+    margin: 1%;
+  }
+}

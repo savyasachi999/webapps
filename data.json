@@ -1,0 +1,45 @@
+{
+  "details":{
+    "image":"Dog1.jpg",
+    "name":"phani",
+    "phoneno":"8017549632",
+    "email":"phani@gmail.com",
+    "Address":"SRKR engineering college"
+  },
+  "carrer":{
+    "info":"to pursue a challenging carrer in information technology"
+  },
+  "education":[{
+    "degree":"btech",
+    "institute":"SRKR college",
+    "date":["2016-2020,89%"]
+    },
+    {"degree":"intermediate",
+      "institute":"narayana college",
+      "date":["2014-2016,98%"]
+  },
+  {"degree":"SSC",
+    "institute":"narayana school",
+    "date":["2014,98%"]
+}],
+"keyskills":[
+  {
+    "title":"programming language:",
+    "info":["c,c++,java,python,ruby"]
+  },
+  {
+  "title":"Operating systems:",
+  "info":["windows,linux,mac,ubuntu"]
+},
+  {
+    "title":"Databases:",
+    "info":["oracle,sql"]
+  }
+],
+"Achievements":{
+  "one":"joining in IT",
+  "two":"joining in SRKR",
+  "three":"Studying in BVRM"
+}
+
+}
