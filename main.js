@@ -1,4 +1,4 @@
-function Loadjson(file,callback){
+/*function Loadjson(file,callback){
   var x= new XMLHttpRequest();
   x.overrideMimeType("application/json");
   x.open("GET",file,true);
@@ -20,8 +20,30 @@ function Loadjson(file,callback){
     keyskills(data.keyskills);
     Achievements(data.Achievements);
 
-  })
+  })*/
 
+  function loadjson(file)
+  {
+    return new Promise((resolve,reject)=>{
+      return fetch(file).then(response=>{
+        if(response.ok){
+          resolve(response.json());
+        }else{
+          reject(new Error('error'));
+        }
+      })
+    })
+  }
+
+  var file=loadjson("data.json");
+  file.then(data=>{
+    console.log(data);
+    basics(data.details);
+    basics1(data.carrer);
+    education(data.education);
+    keyskills(data.keyskills);
+  }
+  )
   var child1=document.querySelector(".child1");
   var child2=document.querySelector(".child2");
   function basics(det){

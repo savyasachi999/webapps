@@ -1,0 +1,48 @@
+.parent{
+  display:flex;
+  width: 100%;
+  border : 2px solid lime;
+
+}
+.left{
+  border:2px solid teal;
+  width:30%;
+  padding: 2%;
+  margin : 2%;
+}
+.right{
+  border:2px solid skyblue;
+  width:70%;
+  padding:2%;
+  margin:2%;
+}
+img{
+  border-radius:50%;
+  border:1px solid red;
+}
+hr{
+  background-color: "red";
+}
+#co{
+  color:blue;
+}
+#para{
+  font-size: 20px;
+  color: lightblue;
+}
+li{
+  color:coral;
+  font-size: 20px;
+}
+#in{
+  font-size: 20px;
+  color:coral;
+}
+#SSC{
+  font-size: 20px;
+  color:coral;
+}
+#ach{
+  font-size: 20px;
+  color:#013ADF;
+}
